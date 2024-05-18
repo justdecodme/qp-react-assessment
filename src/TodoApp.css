@@ -1,0 +1,60 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+  text-align: center;
+}
+
+/* Task.css */
+.task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.task-completed {
+  text-decoration: line-through;
+}
+
+/* AddTaskForm.css */
+.form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
