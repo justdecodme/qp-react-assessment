@@ -31,7 +31,7 @@ const TodoApp: React.FC = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Todo App</h1>
+      <h1 className="title">Super Cool Todo App</h1>
       <AddTaskForm addTask={addTask} />
       {tasks.map(task => (
         <Task
